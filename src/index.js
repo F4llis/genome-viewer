@@ -2,9 +2,10 @@
 
 import API from './api.js'
 
-const init = function(){
+const init = function(...args){
 
-  return new API()
+  return new API(...args)
+
 }
 
 export { init }
